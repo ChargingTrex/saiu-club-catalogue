@@ -237,33 +237,68 @@
 
   /* ---------- LEGEND ---------- */
   .legend{
-    padding:40px 0;
+    padding:48px 0;
     border-bottom:1px solid var(--rule-on-ink);
-    background:rgba(255,255,255,0.015);
-    backdrop-filter:blur(8px);
+    background:
+      linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%),
+      rgba(255,255,255,0.015);
   }
   .legend h2{
     font-family:'Fraunces', serif;
     font-weight:600;
-    font-size:14px;
+    font-size:15px;
     letter-spacing:0.04em;
     text-transform:uppercase;
     color:var(--text-on-ink-dim);
-    margin:0 0 18px;
+    margin:0 0 28px;
+    text-align:center;
   }
-  .legend-row{
+  .legend-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:20px;
+  }
+  .legend-item{
     display:flex;
-    gap:16px 28px;
-    flex-wrap:wrap;
-    font-size:13.5px;
+    align-items:flex-start;
+    gap:14px;
+    padding:16px;
+    background:rgba(255,255,255,0.03);
+    border-radius:10px;
+    border:1px solid var(--rule-on-ink);
+    transition:all .25s ease;
+  }
+  .legend-item:hover{
+    background:rgba(255,255,255,0.05);
+    border-color:rgba(255,255,255,0.15);
+    transform:translateY(-2px);
+  }
+  .legend-icon{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .legend-icon svg{
+    width:20px;
+    height:20px;
+  }
+  .legend-content h3{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size:14px;
+    color:var(--text-on-ink);
+    margin:0 0 4px;
+  }
+  .legend-content p{
+    font-size:13px;
     color:var(--text-on-ink-dim);
+    margin:0;
     line-height:1.5;
   }
-  .legend-row .dot{
-    width:10px; height:10px; border-radius:50%;
-    display:inline-block; margin-right:8px;
-    vertical-align:middle;
-    box-shadow:0 0 6px rgba(255,255,255,0.15);
   }
 
   /* ---------- NAV ---------- */
@@ -736,10 +771,14 @@
     .prose-section p{font-size:14.5px; line-height:1.6;}
     .prose-list li{font-size:14px; padding:12px 0;}
     
-    .legend{padding:28px 0;}
-    .legend h2{font-size:12px; margin-bottom:14px;}
-    .legend-row{flex-direction:column; gap:10px;}
-    .legend-row span{font-size:12px;}
+    .legend{padding:32px 0;}
+    .legend h2{font-size:13px; margin-bottom:20px;}
+    .legend-grid{grid-template-columns:1fr; gap:12px;}
+    .legend-item{padding:14px;}
+    .legend-icon{width:36px; height:36px;}
+    .legend-icon svg{width:18px; height:18px;}
+    .legend-content h3{font-size:13px;}
+    .legend-content p{font-size:12px;}
     
     .catnav{padding:8px 0;}
     .catnav .wrap{gap:8px;}

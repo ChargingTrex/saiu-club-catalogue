@@ -92,17 +92,14 @@
     height:100%;
     object-fit:contain;
   }
-  .hero-text{
-    display:flex;
-    flex-direction:column;
-    gap:4px;
+  .culsoc-logo{
+    width:88px;
+    height:88px;
   }
-  .hero-org{
-    font-family:'Fraunces', serif;
-    font-weight:600;
-    font-size:24px;
-    color:var(--text-on-ink);
-    letter-spacing:-0.01em;
+  .culsoc-logo img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
   }
   .hero .kicker{
     font-family:'IBM Plex Mono', monospace;
@@ -556,8 +553,7 @@
   @media (max-width:600px){
     .hero{padding:52px 0 44px;}
     .hero-logos{flex-direction:column; gap:16px;}
-    .sai-u-logo{width:72px; height:72px;}
-    .hero-org{font-size:20px;}
+    .sai-u-logo, .culsoc-logo{width:72px; height:72px;}
     .hero-stats{flex-direction:column;}
     .hero-stats .stat{border-right:none; border-bottom:1px solid var(--rule-on-ink); padding:16px 20px;}
     .hero-stats .stat:last-child{border-bottom:none;}

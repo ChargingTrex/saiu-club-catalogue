@@ -459,12 +459,15 @@
     color:var(--text-on-paper-dim);
     max-width:52ch;
     line-height:1.55;
+    flex:1;
+    min-width:200px;
   }
   .contact-buttons{
     display:flex;
     flex-wrap:wrap;
     gap:8px;
     align-items:center;
+    justify-content:flex-end;
   }
   .social-btn{
     font-family:'IBM Plex Mono', monospace;

@@ -176,7 +176,7 @@ const CLUBS = [
     social:'instagram.com/saiumusicclub'
   },
   {
-    cat:'arts', icon:'book', name:'Literature Club', poc:'Anne Usmani',
+    cat:'arts', icon:'book', name:'Literature Club', poc:'Prince Raj',
     hook:'From manga to Milton, and stories that become games.',
     pitch:"Reads and analyses every form of literary media, pushes members to write their own stories, poems and scripts, and even explores turning self-written worlds into video games.",
     activities:['Workshops','Performances','Exhibitions','Discussions','Projects'],

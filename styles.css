@@ -334,30 +334,33 @@
     letter-spacing:0.02em;
   }
   .catnav .navlinks{display:flex; gap:8px; flex-wrap:wrap;}
-  .catnav a{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px;
-    color:var(--text-on-ink-dim);
-    text-decoration:none;
-    padding:7px 16px;
-    border:1px solid var(--rule-on-ink);
-    border-radius:100px;
-    transition:all .25s cubic-bezier(.4,0,.2,1);
-    white-space:nowrap;
-    background:transparent;
-  }
-  .catnav a:hover{
-    color:var(--text-on-ink);
-    border-color:var(--brand-sky);
-    background:rgba(12,123,192,0.12);
-    box-shadow:0 0 16px rgba(12,123,192,0.2);
-    transform:translateY(-1px);
-  }
-  .catnav a.active{
-    background:var(--brand-sky);
-    color:#fff;
-    border-color:var(--brand-sky);
-  }
+.catnav a{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:12px;
+  color:var(--text-on-ink-dim);
+  text-decoration:none;
+  padding:8px 18px;
+  border:1px solid var(--rule-on-ink);
+  border-radius:100px;
+  transition:all .25s cubic-bezier(.4,0,.2,1);
+  white-space:nowrap;
+  background:rgba(255,255,255,0.04);
+  font-weight:500;
+  letter-spacing:0.01em;
+}
+.catnav a:hover{
+  color:var(--text-on-ink);
+  border-color:var(--brand-sky);
+  background:rgba(12,123,192,0.15);
+  box-shadow:0 0 16px rgba(12,123,192,0.2);
+  transform:translateY(-1px);
+}
+.catnav a.active{
+  background:var(--brand-sky);
+  color:#fff;
+  border-color:var(--brand-sky);
+  box-shadow:0 2px 12px rgba(12,123,192,0.3);
+}
   
   /* Touch-friendly nav for mobile */
   @media (hover:none) and (pointer:coarse){

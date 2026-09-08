@@ -17,6 +17,7 @@ const ICONS = {
   palette: '<path d="M12 4a8 8 0 100 16c1 0 1.6-.6 1.6-1.4 0-.4-.2-.7-.2-1.1 0-.8.7-1.5 1.5-1.5H17a3 3 0 003-3c0-5-3.6-9-8-9z"/><circle cx="8.3" cy="10.5" r="1"/><circle cx="11" cy="7.7" r="1"/><circle cx="14.8" cy="8.3" r="1"/>',
   quill: '<path d="M4 20c4-1 8-3 11-7 2-2.6 3-5 3-8-3 0-5.4 1-8 3-4 3-6 7-7 11z"/><path d="M4 20l4-4"/>',
   masks: '<path d="M4 6a4 4 0 018 0v3a4 4 0 01-8 0z"/><path d="M12 9a4 4 0 018 0v6a4 4 0 01-8 0z"/><path d="M6 8.5c.4.6 1.2.6 1.6 0M14.5 12c.5.8 1.5.8 2 0"/>',
+  lightbulb: '<path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/>',
 };
 
 function iconSvg(key, color){
@@ -275,7 +276,7 @@ const CLUBS = [
     social:'https://www.instagram.com/oratoryclubsaiu/', email:'oratoryclub@saiuniversity.edu.in'
   },
   {
-    cat:'leadership', icon:'clapper', logo:'entrepreneurship', name:'Entrepreneurship Club', poc:'Rachuri Harsha Vardhan',
+    cat:'leadership', icon:'lightbulb', logo:'entrepreneurship', name:'Entrepreneurship Club', poc:'Rachuri Harsha Vardhan',
     hook:'Think big, pitch bold ideas, and grow as a future entrepreneur.',
     pitch:"A space for students to explore business thinking, pitching, and startup ideas — no prior experience needed. We run workshops, pitch competitions, and fun hands-on activities that build real skills like communication, creativity, and problem solving, while connecting members to entrepreneurs and events beyond campus.",
     activities:['Workshops','Training Sessions','Events','Talks/Guest Sessions','Discussions','Projects','Research Activities','Internal College Events'],

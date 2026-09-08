@@ -53,6 +53,7 @@
   .hero{
     padding:72px 0 60px;
     border-bottom:1px solid var(--rule-on-ink);
+    text-align:center;
     background:
       radial-gradient(ellipse 80% 50% at 50% 0%, rgba(12,123,192,0.08) 0%, transparent 60%),
       radial-gradient(ellipse 60% 40% at 80% 20%, rgba(106,76,147,0.06) 0%, transparent 50%),
@@ -116,7 +117,7 @@
     font-style:italic;
     font-size:clamp(42px, 6.5vw, 72px);
     line-height:1.05;
-    margin:0 0 24px;
+    margin:0 auto 24px;
     max-width:12ch;
     color:var(--text-on-ink);
     letter-spacing:-0.02em;
@@ -125,7 +126,7 @@
     font-size:18px;
     max-width:56ch;
     color:var(--text-on-ink-dim);
-    margin:0 0 6px;
+    margin:0 auto 6px;
     line-height:1.6;
   }
   .hero p.lede strong{color:var(--text-on-ink); font-weight:600;}
@@ -133,17 +134,20 @@
   .hero-stats{
     display:flex;
     gap:0;
-    margin-top:48px;
+    margin:48px auto 0;
     flex-wrap:wrap;
+    justify-content:center;
     background:rgba(255,255,255,0.04);
     border:1px solid var(--rule-on-ink);
     border-radius:12px;
     overflow:hidden;
-    max-width:fit-content;
+    max-width:600px;
   }
   .hero-stats .stat{
+    flex:1;
     padding:20px 32px;
     border-right:1px solid var(--rule-on-ink);
+    text-align:center;
   }
   .hero-stats .stat:last-child{border-right:none;}
   .hero-stats .stat .n{

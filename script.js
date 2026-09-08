@@ -6,7 +6,6 @@ const ICONS = {
   telescope: '<path d="M4 17l6-11 11 6-3 5-11-6z"/><path d="M12 12l-3 6"/><circle cx="6" cy="19" r="1.3"/>',
   flask: '<path d="M10 3h4v5l5 9a2 2 0 01-1.8 3H6.8A2 2 0 015 17l5-9z"/><path d="M9 14h6"/>',
   chess: '<circle cx="12" cy="7" r="2.4"/><path d="M9.5 11h5l1.3 5H8.2z"/><path d="M7 20h10"/><path d="M8.5 16h7"/>',
-  basketball: '<circle cx="12" cy="12" r="8"/><path d="M4 12h16"/><path d="M12 4v16"/><path d="M6.3 6.3c2.6 2.8 2.6 8.6 0 11.4"/><path d="M17.7 6.3c-2.6 2.8-2.6 8.6 0 11.4"/>',
   controller: '<rect x="3" y="9" width="18" height="8" rx="4"/><path d="M8 11v4M6 13h4"/><circle cx="16" cy="12" r="0.9"/><circle cx="18" cy="14" r="0.9"/>',
   paw: '<circle cx="7" cy="8.5" r="1.6"/><circle cx="11" cy="6" r="1.6"/><circle cx="15" cy="6" r="1.6"/><circle cx="18" cy="9.5" r="1.6"/><path d="M12 12c-3 0-5.2 2.1-5.2 4.6 0 2.4 2.3 4.4 5.2 4.4s5.2-2 5.2-4.4C17.2 14.1 15 12 12 12z"/>',
   leaf: '<path d="M5 19C5 10 11 4 20 4c0 9-6 15-15 15z"/><path d="M5 19c3-5 7-8 12-9.5"/>',
@@ -125,17 +124,6 @@ const CLUBS = [
     achievement:'',
     social:'https://www.instagram.com/saiuchessclub/',
     email:'chessclub@saiuniversity.edu.in'
-  },
-  {
-    cat:'sport', icon:'basketball', name:'Basketball Club', poc:'Chandramouleshwar',
-    hook:"Court time with players who've played at state level.",
-    pitch:"Built for competitive basketball — coaching sessions run by state-level players and a clear runway toward inter-college tournaments.",
-    activities:['Coaching sessions','Training','Inter-college & internal competitions'],
-    who:'Students serious about competitive basketball who can commit to regular inter-college participation.',
-    freq:'Once a semester', time:'Under 1 hr/week', exp:'Prior school-level experience required', selection:'Open membership',
-    achievement:'',
-    social:'',
-    email:'basketball@saiuniversity.edu.in'
   },
   {
     cat:'sport', icon:'controller', name:'DOT.exe', poc:'S Bhanu Karthik',

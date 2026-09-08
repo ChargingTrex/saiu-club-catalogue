@@ -460,18 +460,60 @@
     max-width:52ch;
     line-height:1.55;
   }
-  .footrow .social{
+  .contact-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+  }
+  .social-btn{
     font-family:'IBM Plex Mono', monospace;
     font-size:12px;
     color:var(--text-on-paper);
     white-space:nowrap;
-    padding:4px 12px;
+    padding:6px 14px;
     background:var(--paper-dim);
     border-radius:100px;
-    transition:background .2s ease;
+    transition:all .2s ease;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    text-decoration:none;
+    cursor:pointer;
   }
-  .footrow .social:hover{
+  .social-btn:hover{
     background:var(--paper);
+    transform:translateY(-1px);
+    box-shadow:var(--shadow-sm);
+  }
+  .social-btn svg{
+    width:14px;
+    height:14px;
+    flex-shrink:0;
+  }
+  .instagram-btn{
+    background:linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color:#fff;
+  }
+  .instagram-btn:hover{
+    background:linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter:brightness(1.1);
+  }
+  .linkedin-btn{
+    background:#0077b5;
+    color:#fff;
+  }
+  .linkedin-btn:hover{
+    background:#00669c;
+    filter:brightness(1.1);
+  }
+  .email-btn{
+    background:var(--c-tech);
+    color:#fff;
+  }
+  .email-btn:hover{
+    background:var(--brand-sky);
+    filter:brightness(1.1);
   }
 
   /* ---------- FOOTER ---------- */

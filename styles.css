@@ -238,13 +238,13 @@
   }
 
   /* ---------- LEGEND ---------- */
-  .legend{
-    padding:48px 0;
-    border-bottom:1px solid var(--rule-on-ink);
-    background:
-      linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%),
-      rgba(255,255,255,0.015);
-  }
+.legend{
+  padding:64px 0;
+  border-bottom:1px solid var(--rule-on-ink);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%),
+    rgba(255,255,255,0.015);
+}
   .legend h2{
     font-family:'Fraunces', serif;
     font-weight:600;

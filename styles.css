@@ -316,7 +316,7 @@
   .catnav.scrolled{
     box-shadow:0 4px 20px rgba(0,0,0,0.3);
   }
-  .catnav .wrap{display:flex; gap:12px; align-items:center; flex-wrap:wrap; padding:0 32px;}
+  .catnav .wrap{display:flex; gap:12px; align-items:center; flex-wrap:wrap; padding:0 48px;}
   .catnav .navbrand{display:flex; align-items:center; gap:8px; margin-right:12px;}
   .catnav .navbrand .navbadge{
     background:#fff; border-radius:8px; padding:4px 8px; display:flex; align-items:center;

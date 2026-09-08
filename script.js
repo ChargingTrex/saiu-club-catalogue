@@ -171,7 +171,7 @@ const CLUBS = [
     freq:'Event-based', time:'Varies by event', exp:'Preferred, not mandatory', selection:'Audition — evaluated on performance',
     achievement:'Performed at cultural events hosted by NIFT and IIT; bands and singers have won multiple awards.',
     social:'https://www.instagram.com/saiumusicclub/', email:'musicclub@saiuniversity.edu.in',
-    email:'musicclub@saiuniversity.edu.in'
+    note:'The Music Club will not be attending the club fair this year. Registrations will happen separately — stay tuned for updates.'
   },
   {
     cat:'arts', icon:'book', name:'Literature Club', poc:'Prince Raj',
@@ -347,6 +347,7 @@ function renderClub(c){
       <div class="v"><span class="k">Experience needed</span><span class="val">${c.exp}</span></div>
       <div class="v"><span class="k">Selection</span><span class="val">${c.selection}</span></div>
     </div>
+    ${c.note ? `<div class="club-note">${c.note}</div>` : ''}
     ${contactHtml}
   </article>`;
 }

@@ -324,6 +324,17 @@
     transform:translateY(-2px);
     box-shadow:var(--shadow-md);
   }
+  .club-note{
+    margin-top:16px;
+    padding:12px 16px;
+    background:linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%);
+    border:1px solid #ffc107;
+    border-radius:8px;
+    font-size:13.5px;
+    color:#856404;
+    font-weight:500;
+    line-height:1.5;
+  }
   .club .headrow{
     display:flex;
     justify-content:space-between;

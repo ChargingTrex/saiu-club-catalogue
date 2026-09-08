@@ -278,6 +278,25 @@
     background:rgba(12,123,192,0.1);
     box-shadow:0 0 12px rgba(12,123,192,0.15);
   }
+  
+  /* Touch-friendly nav for mobile */
+  @media (hover:none) and (pointer:coarse){
+    .catnav a{
+      padding:8px 14px;
+      font-size:12px;
+      min-height:36px;
+      display:flex;
+      align-items:center;
+    }
+    .social-btn{
+      padding:8px 14px;
+      min-height:36px;
+    }
+    .chiprow .chip{
+      padding:6px 12px;
+      min-height:32px;
+    }
+  }
 
   /* ---------- CATEGORY SECTION ---------- */
   .category{padding:64px 0 24px;}
@@ -614,20 +633,107 @@
     margin:0;
   }
 
+  /* Tablet (768px and below) */
+  @media (max-width:768px){
+    .wrap{padding:0 20px;}
+    .hero{padding:60px 0 50px;}
+    .hero h1{font-size:clamp(36px, 5vw, 56px);}
+    .hero p.lede{font-size:16px;}
+    .hero-stats .stat{padding:18px 28px;}
+    .hero-stats .stat .n{font-size:34px;}
+    .category{padding:48px 0 20px;}
+    .category-intro h2{font-size:clamp(24px, 3vw, 32px);}
+    .club{margin-bottom:16px;}
+    .club h3{font-size:22px;}
+    .prose-section{padding:32px 0;}
+    .prose-section h2{font-size:clamp(22px, 2.5vw, 28px);}
+    .legend-row{gap:12px 20px;}
+    .legend-row span{font-size:12.5px;}
+  }
+
+  /* Mobile (600px and below) */
   @media (max-width:600px){
-    .hero{padding:52px 0 44px;}
-    .hero-logos{flex-direction:column; gap:16px;}
-    .sai-u-logo, .culsoc-logo{width:72px; height:72px;}
-    .hero-stats{flex-direction:column;}
-    .hero-stats .stat{border-right:none; border-bottom:1px solid var(--rule-on-ink); padding:16px 20px;}
+    .wrap{padding:0 16px;}
+    .hero{padding:48px 0 40px;}
+    .hero-logos{flex-direction:column; gap:14px;}
+    .sai-u-logo, .culsoc-logo{width:68px; height:68px;}
+    .hero h1{font-size:clamp(32px, 8vw, 48px); line-height:1.1;}
+    .hero p.lede{font-size:15px; line-height:1.5;}
+    .hero-stats{flex-direction:column; border-radius:8px;}
+    .hero-stats .stat{border-right:none; border-bottom:1px solid var(--rule-on-ink); padding:14px 18px;}
     .hero-stats .stat:last-child{border-bottom:none;}
-    .club{padding:24px 20px 22px; border-radius:8px;}
-    .vitals{flex-direction:column; gap:12px;}
-    .vitals .v{border-right:none; padding-right:0; margin-right:0;}
-    .catnav .navbrand span{display:none;}
-    .catnav .navlinks{gap:6px;}
-    .catnav a{padding:5px 10px; font-size:11px;}
+    .hero-stats .stat .n{font-size:30px;}
+    .hero-stats .stat .l{font-size:10px;}
+    
+    .prose-section{padding:28px 0;}
+    .prose-section .wrap{max-width:100%;}
+    .prose-section h2{font-size:22px; margin-bottom:16px;}
+    .prose-section p{font-size:14.5px; line-height:1.6;}
+    .prose-list li{font-size:14px; padding:12px 0;}
+    
+    .legend{padding:28px 0;}
+    .legend h2{font-size:12px; margin-bottom:14px;}
+    .legend-row{flex-direction:column; gap:10px;}
+    .legend-row span{font-size:12px;}
+    
+    .catnav{padding:8px 0;}
+    .catnav .wrap{gap:8px;}
+    .catnav .navbrand{display:none;}
+    .catnav .navlinks{gap:6px; flex-wrap:wrap;}
+    .catnav a{padding:5px 10px; font-size:11px; border-radius:100px;}
+    
+    .category{padding:40px 0 16px;}
+    .category-intro .tag{font-size:10px; padding:4px 12px;}
+    .category-intro h2{font-size:26px; margin-bottom:12px;}
+    .category-intro p{font-size:14px;}
+    
+    .club{padding:20px 16px 18px; border-radius:8px; border-left-width:4px;}
+    .club .headrow{gap:12px;}
+    .titleblock{gap:12px;}
+    .iconbadge{width:48px; height:48px; border-radius:12px;}
+    .iconbadge svg{width:26px; height:26px;}
+    .club h3{font-size:20px; line-height:1.2;}
+    .representative .p-tag{font-size:9px;}
+    .representative .p-name{font-size:14px;}
+    .club .hook{font-size:15px; margin:12px 0 14px;}
+    .club .pitch{font-size:14px; line-height:1.6;}
+    .club .subhead{font-size:9.5px; margin-bottom:8px;}
+    .chiprow .chip{font-size:11.5px; padding:4px 10px;}
+    .who{font-size:13.5px; margin-bottom:18px;}
+    
+    .vitals{flex-direction:column; gap:10px; padding-top:14px;}
+    .vitals .v{border-right:none; padding-right:0; margin-right:0; display:flex; gap:8px; align-items:baseline;}
+    .vitals .v .k{margin-bottom:0;}
+    .vitals .v .val{font-size:13px;}
+    
+    .club-note{padding:10px 14px; font-size:13px; margin-top:14px;}
+    
+    .footrow{flex-direction:column; gap:14px; align-items:flex-start;}
+    .footrow .achievement{max-width:100%; font-size:12.5px;}
+    .contact-buttons{justify-content:flex-start; width:100%;}
+    .social-btn{padding:5px 12px; font-size:11px;}
+    .social-btn svg{width:12px; height:12px;}
+    
+    .sitefoot{padding:48px 0 32px; margin-top:48px;}
     .sitefoot-inner{gap:24px;}
     .sitefoot-brand{gap:12px;}
     .sitefoot-logo{width:64px; height:64px;}
+    .sitefoot-text h3{font-size:20px;}
+    .sitefoot-text p{font-size:13px;}
+    .sitefoot-copy, .sitefoot-tagline{font-size:12px;}
+  }
+
+  /* Small phones (400px and below) */
+  @media (max-width:400px){
+    .hero{padding:40px 0 32px;}
+    .sai-u-logo, .culsoc-logo{width:60px; height:60px;}
+    .hero h1{font-size:28px;}
+    .hero p.lede{font-size:14px;}
+    .hero-stats .stat{padding:12px 16px;}
+    .hero-stats .stat .n{font-size:26px;}
+    .club{padding:18px 14px 16px;}
+    .club h3{font-size:18px;}
+    .chiprow .chip{font-size:11px; padding:4px 9px;}
+    .contact-buttons{flex-direction:column; align-items:stretch;}
+    .social-btn{justify-content:center;}
   }

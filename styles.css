@@ -301,7 +301,7 @@
     margin:0;
     line-height:1.5;
   }
-  }
+
 
   /* ---------- NAV ---------- */
   .catnav{
@@ -316,7 +316,7 @@
   .catnav.scrolled{
     box-shadow:0 4px 20px rgba(0,0,0,0.3);
   }
-  .catnav .wrap{display:flex; gap:12px; align-items:center; flex-wrap:wrap;}
+  .catnav .wrap{display:flex; gap:12px; align-items:center; flex-wrap:wrap; padding:0 32px;}
   .catnav .navbrand{display:flex; align-items:center; gap:8px; margin-right:12px;}
   .catnav .navbrand .navbadge{
     background:#fff; border-radius:8px; padding:4px 8px; display:flex; align-items:center;
@@ -818,7 +818,7 @@
     .legend-content p{font-size:12px;}
     
     .catnav{padding:8px 0;}
-    .catnav .wrap{gap:8px;}
+    .catnav .wrap{gap:8px; padding:0 24px;}
     .catnav .navbrand{display:none;}
     .catnav .navlinks{gap:6px; flex-wrap:wrap;}
     .catnav a{padding:5px 10px; font-size:11px; border-radius:100px;}

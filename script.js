@@ -75,8 +75,7 @@ const CLUBS = [
     who:"You don't need to be an experienced programmer. Anyone curious about coding, web/app dev, AI, cybersecurity, Linux, design, documentation or community-building has a seat here.",
     freq:'Bi-weekly', time:'Under 1 hr/week', exp:'Beginners welcome', selection:'Open membership',
     achievement:"Ran a Git/GitHub workshop, a Linux CLI deep-dive, a session on FOSS law, and an AlphaFold/protein-folding talk in 2025–26.",
-    social:'instagram.com/foss.saiu',
-    email:'foss@saiuniversity.edu.in'
+    social:'instagram.com/foss.saiu'
   },
   {
     cat:'tech', icon:'cpu', logo:'turingites', name:'Turingites', poc:'K B Aditya',
@@ -86,8 +85,7 @@ const CLUBS = [
     who:"Students of every experience level curious about programming, AI, cybersecurity, web development, robotics or data science. No prior skills required — just a willingness to learn and share.",
     freq:'Monthly', time:'Under 1 hr/week', exp:'Preferred, not mandatory', selection:'Open membership',
     achievement:'',
-    social:'https://www.instagram.com/turingites/', email:'turingites@saiuniversity.edu.in',
-    email:'turingites@saiuniversity.edu.in'
+    social:'https://www.instagram.com/turingites/', email:'turingites@saiuniversity.edu.in'
   },
   // ---------------- SCIENCE ----------------
   {
@@ -98,8 +96,7 @@ const CLUBS = [
     who:"No physics background needed. Just students who enjoy asking questions, looking up at the night sky, and are willing to learn, share, and explore alongside others.",
     freq:'Monthly', time:'Under 1 hr/week', exp:'Beginners welcome', selection:'Informal interview — judged on curiosity & motivation, not technical knowledge',
     achievement:'Sits on the core committee of ISAAC (a pan-India astronomy-club network), organised a live rocket-launch viewing at SDSC Sriharikota, and was featured in Maan Ki Baat magazine.',
-    social:'https://www.instagram.com/the.accretion/', email:'astronomyclub@saiuniversity.edu.in',
-    email:'accretion@saiuniversity.edu.in'
+    social:'https://www.instagram.com/the.accretion/', email:'astronomyclub@saiuniversity.edu.in'
   },
   {
     cat:'sci', icon:'flask', logo:'science', name:'Science Club', poc:'Ksherja C Charie',
@@ -109,8 +106,7 @@ const CLUBS = [
     who:'Anyone with a keen interest in the vast domain of science. No prior skill required.',
     freq:'Monthly', time:'Varies by event', exp:'Beginners welcome', selection:'Open membership',
     achievement:'Organised National Science Day events and hosted Romulus Whitaker, "the Snake Man of India."',
-    social:'https://www.instagram.com/saiusciencesociety/', email:'saiu.sciencesociety@saiuniversity.edu.in',
-    email:'scienceclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiusciencesociety/', email:'saiu.sciencesociety@saiuniversity.edu.in'
   },
 
   // ---------------- SPORTS ----------------
@@ -122,8 +118,7 @@ const CLUBS = [
     who:'Anyone drawn to strategy, problem-solving and friendly competition — from complete beginners to seasoned players.',
     freq:'Bi-weekly', time:'1–2 hrs/week', exp:'Beginners welcome', selection:'Open membership',
     achievement:'',
-    social:'https://www.instagram.com/saiuchessclub/',
-    email:'chessclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiuchessclub/'
   },
   {
     cat:'sport', icon:'controller', name:'DOT.exe', poc:'S Bhanu Karthik',
@@ -133,8 +128,7 @@ const CLUBS = [
     who:'Anyone who games, on any device — beginners and casual players included.',
     freq:'Event-based', time:'Varies by event', exp:'Beginners welcome', selection:'Open membership',
     achievement:'1st and 2nd place at the SSN Valorant Cup, 2024 and 2025.',
-    social:'',
-    email:'dotexe@saiuniversity.edu.in'
+    social:''
   },
 
   // ---------------- ENVIRONMENT ----------------
@@ -146,8 +140,7 @@ const CLUBS = [
     who:'Animal lovers who are compassionate, proactive, and up for teamwork — plus creative students interested in campaigns and social media.',
     freq:'Monthly', time:'Varies by event', exp:'Beginners welcome', selection:'Open membership',
     achievement:'',
-    social:'https://www.instagram.com/saiuanimalwelfaresociety/', email:'saiu.animalwelfare@saiuniversity.edu.in',
-    email:'animalwelfare@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiuanimalwelfaresociety/', email:'saiu.animalwelfare@saiuniversity.edu.in'
   },
   {
     cat:'env', icon:'leaf', name:'Sustainability Club', poc:'Shruthika Nair PJ',
@@ -157,8 +150,7 @@ const CLUBS = [
     who:'Curious, enthusiastic students ready to volunteer and take initiative — whether you like leading, creating, organising, or just helping out.',
     freq:'Every alternate week', time:'Varies by event', exp:'Beginners welcome', selection:'Short form + interview — judged on interest & creativity',
     achievement:'',
-    social:'https://www.instagram.com/sustainabilityclubsaiu/', email:'gardeningclub@saiuniversity.edu.in',
-    email:'sustainability@saiuniversity.edu.in'
+    social:'https://www.instagram.com/sustainabilityclubsaiu/', email:'gardeningclub@saiuniversity.edu.in'
   },
 
   // ---------------- ARTS ----------------
@@ -181,8 +173,7 @@ const CLUBS = [
     who:'Regular readers or watchers of anything — manga, classics, cookbooks, foreign-language work — open to exploring outside their usual taste.',
     freq:'Monthly', time:'2–4 hrs/week', exp:'Beginners welcome', selection:'Open membership',
     achievement:'',
-    social:'', email:'clubofliterature@saiuniversity.edu.in',
-    email:'literatureclub@saiuniversity.edu.in'
+    social:'', email:'clubofliterature@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'hanger', name:'Sai U Fashion Club', poc:'Isabel Alex',
@@ -192,8 +183,7 @@ const CLUBS = [
     who:'Confident, creative students willing to step outside their comfort zone — no fashion expertise required.',
     freq:'Monthly', time:'Varies by event', exp:'Beginners welcome', selection:'Audition, skill demo & portfolio review — evaluated on creativity',
     achievement:'Special mention at NIFT, competed at Stella Maris, organised and performed at MoSAIc 2026.',
-    social:'https://www.instagram.com/saiufashionclub/', email:'fashionclub@saiuniversity.edu.in',
-    email:'fashionclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiufashionclub/', email:'fashionclub@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'clapper', logo:'craft', name:'Creators Club (CRAFT)', poc:'Lavakusha',
@@ -203,8 +193,7 @@ const CLUBS = [
     who:'Anyone interested in content, film, acting or editing — at least basic familiarity with the craft helps, but passion matters more.',
     freq:'Usually bi-weekly, busier around events', time:'Varies by event', exp:'Preferred, not mandatory', selection:'Interview, skill demo & portfolio — members grouped beginner / advanced / pro',
     achievement:'',
-    social:'https://www.instagram.com/creators_club_saiuniversity/', email:'saiu.filmsociety@saiuniversity.edu.in',
-    email:'craftclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/creators_club_saiuniversity/', email:'saiu.filmsociety@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'dance', name:'Dance Club', poc:'Shailu Brinda',
@@ -214,8 +203,7 @@ const CLUBS = [
     who:'Passionate, energetic dancers with prior experience and a working sense of rhythm and coordination.',
     freq:'Monthly', time:'Varies by event', exp:'Prior experience required', selection:'Audition — evaluated on performance',
     achievement:'Won prizes at multiple college dance competitions, representing the university at various platforms.',
-    social:'https://www.instagram.com/saiudanceclub/', email:'danceclub@saiuniversity.edu.in',
-    email:'danceclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiudanceclub/', email:'danceclub@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'camera', logo:'photography', name:'Photography Club', poc:'Anish',
@@ -225,8 +213,7 @@ const CLUBS = [
     who:"Anyone who enjoys taking photos — phone camera or DSLR, both welcome — and wants to improve alongside others.",
     freq:'Occasional', time:'Varies by event', exp:'Beginners welcome', selection:'Open membership',
     achievement:'',
-    social:'https://www.instagram.com/photographyclub_saiu/', email:'photographyclub@saiuniversity.edu.in',
-    email:'photographyclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/photographyclub_saiu/', email:'photographyclub@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'palette', logo:'art', name:'Art Club', poc:'Katelyn Brisha',
@@ -236,8 +223,7 @@ const CLUBS = [
     who:'Anyone with a love for art and a willingness to get involved in club activities.',
     freq:'Event-based', time:'More during events', exp:'Beginners welcome', selection:'Open membership',
     achievement:'Collaborated with SUSS on merchandise and decor for Science Conference Week; placed 2nd at the SSN Instincts 2023 Art Marathon.',
-    social:'https://www.instagram.com/saiuartclub/', email:'theartclub@saiuniversity.edu.in',
-    email:'artclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiuartclub/', email:'theartclub@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'quill', name:'Write-Code-Action (WCA)', poc:'Anne Usmani',
@@ -247,8 +233,7 @@ const CLUBS = [
     who:'Students with a real interest in literary work of any kind, the patience to write, genuine curiosity about both tech and the arts, and willingness to work outside their home school.',
     freq:'Bi-weekly', time:'1–2 hrs/week', exp:'Beginners welcome', selection:'Open membership',
     achievement:'',
-    social:'',
-    email:'wca@saiuniversity.edu.in'
+    social:''
   },
   {
     cat:'arts', icon:'masks', logo:'theatre', name:'Theatre Club', poc:'Elizaveta Desai',
@@ -258,8 +243,7 @@ const CLUBS = [
     who:'Anyone curious about acting or storytelling, willing to participate, collaborate, and step out of their comfort zone.',
     freq:'Once a semester', time:'Varies by event', exp:'Beginners welcome', selection:'Audition — script reading & performance evaluated',
     achievement:'Performed a play for Suicide Awareness Week (2025); participated in cultural competitions (2024).',
-    social:'https://www.instagram.com/thetheatreclub/', email:'theatreclub@saiuniversity.edu.in',
-    email:'theatreclub@saiuniversity.edu.in'
+    social:'https://www.instagram.com/thetheatreclub/', email:'theatreclub@saiuniversity.edu.in'
   },
 
   // ---------------- NEW CLUBS FROM LATEST FORM RESPONSES ----------------
@@ -271,8 +255,7 @@ const CLUBS = [
     who:'Students interested in martial arts, fitness, self-defence and personal development — from complete beginners to experienced practitioners — who are willing to train consistently and participate actively.',
     freq:'Monthly', time:'Varies by event', exp:'Prior experience preferred, not mandatory', selection:'Open membership',
     achievement:'Led by national- and state-level martial artists; members include Taekwondo black belts, international-level competitors and national-level Silambam practitioners across 5+ martial arts disciplines.',
-    social:'https://www.instagram.com/saiu.martialartsclub/', email:'martialartsclub@saiuniversity.edu.in',
-    email:'martialarts@saiuniversity.edu.in'
+    social:'https://www.instagram.com/saiu.martialartsclub/', email:'martialartsclub@saiuniversity.edu.in'
   },
   {
     cat:'arts', icon:'quill', name:'Oratory Club', poc:'Dksh Kamal Shahi',

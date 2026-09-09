@@ -39,36 +39,42 @@ const CATEGORIES = [
     key:'arts',
     name:'Arts, Culture & Performing Arts',
     color:'var(--c-arts)', tint:'var(--c-arts-tint)',
+    visual:'images/category-arts.svg',
     blurb:"The biggest, loudest, most crowded corner of campus life — music, theatre, dance, fashion, film, writing, and everything that refuses to stay in one lane."
   },
   {
     key:'sport',
     name:'Sports, Physical Activities & Games',
     color:'var(--c-sport)', tint:'var(--c-sport-tint)',
+    visual:'images/category-sport.svg',
     blurb:"Competitive, casual, digital or on-court — for students who want to move, play, and occasionally bring home a trophy."
   },
   {
     key:'tech',
     name:'Technology & Computing',
     color:'var(--c-tech)', tint:'var(--c-tech-tint)',
+    visual:'images/category-tech.svg',
     blurb:"For students who'd rather build the thing than just use it — open-source contributors, tinkerers, and anyone curious about what's under the hood."
   },
   {
     key:'sci',
     name:'Science, Space & Innovation',
     color:'var(--c-sci)', tint:'var(--c-sci-tint)',
+    visual:'images/category-sci.svg',
     blurb:"Where curiosity gets a telescope, a lab bench, or a guest speaker. No prior expertise expected — just a willingness to ask why."
   },
   {
     key:'env',
     name:'Environment & Social Responsibility',
     color:'var(--c-env)', tint:'var(--c-env-tint)',
+    visual:'images/category-env.svg',
     blurb:"For students who want their time on campus to leave something better behind — animals cared for, waste reduced, communities served."
   },
   {
     key:'leadership',
     name:'Entrepreneurship & Leadership',
     color:'#D97706', tint:'#FEF3C7',
+    visual:'images/category-leadership.svg',
     blurb:"For students who want to build, pitch, and lead — turning ideas into action and developing the skills to make things happen."
   },
 ];
@@ -358,7 +364,7 @@ function renderCategory(cat){
   const cards = clubs.map(renderClub).join('');
   return `
   <section class="category" id="cat-${cat.key}">
-    <div class="category-intro">
+    <div class="category-intro" style="background-image:url('${cat.visual}')">
       <span class="tag" style="background:${cat.tint}; color:${cat.color}">${clubs.length} club${clubs.length>1?'s':''}</span>
       <h2>${cat.name}</h2>
       <p>${cat.blurb}</p>

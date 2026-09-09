@@ -83,13 +83,13 @@ const CLUBS = [
   // ---------------- TECH ----------------
   {
     cat:'tech', icon:'code', logo:'foss', name:'FOSS Club', poc:'B. Vaibhav',
-    hook:'Code in the open, learn in the open.',
+    hook:'Free as in Freedom, Open as in code',
     pitch:"A student-led community built around Free and Open Source Software — a place to learn by building, share knowledge without gatekeeping, and contribute to the wider open-source ecosystem beyond campus.",
     activities:['Git & GitHub workshops','Linux command-line sessions','Hackathons','Mentorship & peer learning'],
     who:"You don't need to be an experienced programmer. Anyone curious about coding, web/app dev, AI, cybersecurity, Linux, design, documentation or community-building has a seat here.",
     freq:'Bi-weekly', time:'Under 1 hr/week', exp:'Beginners welcome', selection:'Open membership',
     achievement:"Ran a Git/GitHub workshop, a Linux CLI deep-dive, a session on FOSS law, and an AlphaFold/protein-folding talk in 2025–26.",
-    social:'instagram.com/foss.saiu'
+    social:'instagram.com/foss.saiu', email:'fossclub@saiuniversity.edu.in'
   },
   {
     cat:'tech', icon:'cpu', logo:'turingites', name:'Turingites', poc:'K B Aditya',

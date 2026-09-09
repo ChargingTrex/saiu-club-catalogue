@@ -494,7 +494,7 @@
   }
   .titleblock{display:flex; gap:16px; align-items:flex-start;}
   .iconbadge{
-    width:56px; height:56px; border-radius:14px;
+    width:60px; height:60px; border-radius:14px;
     display:flex; align-items:center; justify-content:center;
     flex-shrink:0;
     overflow:hidden;
@@ -840,7 +840,7 @@
     .club{padding:20px 16px 18px; border-radius:8px; border-left-width:4px;}
     .club .headrow{gap:12px;}
     .titleblock{gap:12px;}
-    .iconbadge{width:48px; height:48px; border-radius:12px;}
+    .iconbadge{width:52px; height:52px; border-radius:12px;}
     .iconbadge svg{width:26px; height:26px;}
     .club h3{font-size:20px; line-height:1.2;}
     .representative .p-tag{font-size:9px;}

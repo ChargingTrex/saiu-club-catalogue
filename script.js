@@ -194,7 +194,7 @@ const CLUBS = [
     social:'https://www.instagram.com/saiufashionclub/', email:'fashionclub@saiuniversity.edu.in'
   },
   {
-    cat:'arts', icon:'clapper', logo:'craft', name:'Film Club', poc:'Lavakusha',
+    cat:'arts', icon:'clapper', name:'Film Club', poc:'Lavakusha',
     hook:'Think big, plan big, create big — one reel at a time.',
     pitch:"A creative collective for content creation, reels, acting, filmmaking and editing, where small ideas turn into big collaborative projects, and members are grouped by skill as they build a portfolio.",
     activities:['Workshops','Performances','Projects','Campaigns','Inter-college & internal events'],
